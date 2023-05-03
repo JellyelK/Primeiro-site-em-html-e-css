@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'minha fonte';
+    src: url(fonts/Nautilus.otf);
+}
+
+body{
+    min-height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #E0C2A7;
+}
+
+.sitebody{
+    min-height: 70vh;
+}
+
+.nav-bar{
+    flex-wrap: wrap;
+    background-color: #B18256;
+    padding: 10px;
+  
+
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    padding: 0 100px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+a{
+    text-transform: uppercase;
+    font-weight: 450;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Pompiere', cursive;
+    text-decoration: none;
+    list-style: none;
+    color: #fff9f4;
+
+}
+header{
+    padding:0;
+    background-image: url(img/back.png);
+            background-position: top;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 320px;
+}
+
+h1{
+    color: #fffffd;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'minha fonte';
+    font-size: 70px;
+    padding: 0px;
+}
+
+h2{
+    color: #fffffd;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'minha fonte';
+    font-size: 40px;
+    padding: 0px;
+
+}
+
+.Titulo{
+    font-family: 'minha fonte';
+    color: #fffffd;
+    text-decoration: none;
+    text-align: center;
+    padding: 80px;
+}
+
+
+.cabeçalho{
+
+    padding-left: 480px;
+    padding-top: 80px;
+}
+
+.cabeçalho>h3{
+    font-family: 'Pompiere', cursive;
+    color: black;
+    font-weight: 300;
+    font-size: 30px;
+
+}
+
+.cabeçalho>h1{
+    font-family: 'Pompiere', cursive;
+    color: black;
+    font-weight: 300;
+    font-size: 40px;
+    text-align: left;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.cabeçalho{
+    margin-bottom: 40px;
+}
+
+.photoslide >img{
+    padding: 50px;
+}
+.photoslide{
+    width: 300px;
+    height: 50px;
+    margin: 0px;
+}
+
+.background_2{
+    background-image: url(img/mockup-4020150_1280.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size:cover;
+            height: 800px;
+    min-height: 600px;
+    text-align: center;
+
+}
+
+.background_2 >img{
+    justify-content: space-between;
+    padding: 16px;
+    margin-top: 100px;
+}
+
+.imagefooter{
+    width: 300px;
+    height: 50px;
+    margin: 0px;;
+}
+
+.imagefooter >img{
+    position: absolute;
+    right: 40px;
+    top: 1120px;
+    margin-top: 10px;
+    padding: 12px;
+}
+
+.textfooter >h3{
+    text-align: justify;
+    font-family: 'Pompiere', cursive;
+    color: white;
+    font-weight: 300;
+    font-size: 30px;
+    padding-left: 60px;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    margin-right: 450px;
+}
