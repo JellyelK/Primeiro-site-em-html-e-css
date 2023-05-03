@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f1;
+}
+
+.login {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 25px;
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 150px;
+    box-shadow: 0px 0px 10px #CCCCCC;
+    background-image: url(img_páginas/bread-6486963_1280.jpg); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 300px;
+min-height: 200px;
+text-align: center;
+}
+
+label{
+    display: block;
+			margin-bottom: 5px;
+			color: white;
+}
+
+input[type="text"], input[type="password"] {
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333333;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background-color: #3E8E41;
+}
